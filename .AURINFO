@@ -1,0 +1,20 @@
+pkgbase = c-vtapi-git
+	pkgdesc = The official VirusTotal-API written in C
+	pkgver = 101.d42f95d
+	pkgrel = 1
+	url = https://github.com/VirusTotal/c-vtapi
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = libtool
+	makedepends = gcc
+	depends = jansson
+	depends = curl
+	source = git+http://github.com/VirusTotal/c-vtapi
+	md5sums = SKIP
+
+pkgname = c-vtapi-git
+
